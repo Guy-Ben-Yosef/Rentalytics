@@ -26,8 +26,8 @@ Rentalytics is a project aimed at helping users gather rental price data for hou
    git clone https://github.com/theguyben/Rentalytics.git
    ```
 2. Install the required dependencies:
-   ```
-   pip install -r requirements.txt
+   ```diff
+   - pip install -r requirements.txt
    ```
 3. Set up the necessary API keys or credentials as specified in the documentation.
 
