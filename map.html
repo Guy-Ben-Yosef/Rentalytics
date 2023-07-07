@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2755102b266170618510c5baacafa9c7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2755102b266170618510c5baacafa9c7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2755102b266170618510c5baacafa9c7 = L.map(
+                "map_2755102b266170618510c5baacafa9c7",
+                {
+                    center: [32.11056797632897, 34.79634609690524],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_08d03ffe5fc6589d57ca09e8d00aac91 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca target=\"_blank\" href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca target=\"_blank\" href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2755102b266170618510c5baacafa9c7);
+        
+    
+            var circle_marker_2b583715882bda57f1145bc4099f08b2 = L.circleMarker(
+                [32.10868391943782, 34.79440584878549],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.363333333333333, "stroke": true, "weight": 3}
+            ).addTo(map_2755102b266170618510c5baacafa9c7);
+        
+    
+        var popup_65a2371bd794fdd4b234fcd5378dffea = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            
+                var html_b0adae3a617cc007cb449ca68e4f3469 = $(`<div id="html_b0adae3a617cc007cb449ca68e4f3469" style="width: 100.0%; height: 100.0%;">Street: רדינג<br>Exact location on this street is unknown<br>Rooms: 2.5<br>Floor: 2<br>Price: 5300</div>`)[0];
+                popup_65a2371bd794fdd4b234fcd5378dffea.setContent(html_b0adae3a617cc007cb449ca68e4f3469);
+            
+        
+
+        circle_marker_2b583715882bda57f1145bc4099f08b2.bindPopup(popup_65a2371bd794fdd4b234fcd5378dffea)
+        ;
+
+        
+    
+    
+            var circle_marker_38c2f627ef69f9d0ff1b94be7de5482f = L.circleMarker(
+                [32.109021312262364, 34.796177905264464],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.413333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_2755102b266170618510c5baacafa9c7);
+        
+    
+        var popup_4c938a6827d97d9e73fa3ee022e46e6e = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            
+                var html_f42af43b14269d3d260fbc055cf8a347 = $(`<div id="html_f42af43b14269d3d260fbc055cf8a347" style="width: 100.0%; height: 100.0%;">Street: נח<br>Number: 6<br>Rooms: 3<br>Floor: 0<br>Price: 6800</div>`)[0];
+                popup_4c938a6827d97d9e73fa3ee022e46e6e.setContent(html_f42af43b14269d3d260fbc055cf8a347);
+            
+        
+
+        circle_marker_38c2f627ef69f9d0ff1b94be7de5482f.bindPopup(popup_4c938a6827d97d9e73fa3ee022e46e6e)
+        ;
+
+        
+    
+    
+            var circle_marker_2b40f727fa8b2143be35a15c6a27b492 = L.circleMarker(
+                [32.10590347280132, 34.79378515131009],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.87, "stroke": true, "weight": 3}
+            ).addTo(map_2755102b266170618510c5baacafa9c7);
+        
+    
+        var popup_f26ff4de5550fc3cb0b05e2bb7b7ad84 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            
+                var html_6c8c30e67a20d1fe6055214e4f91849f = $(`<div id="html_6c8c30e67a20d1fe6055214e4f91849f" style="width: 100.0%; height: 100.0%;">Street: יהודה קרני<br>Exact location on this street is unknown<br>Rooms: 3<br>Floor: 3<br>Price: 6900</div>`)[0];
+                popup_f26ff4de5550fc3cb0b05e2bb7b7ad84.setContent(html_6c8c30e67a20d1fe6055214e4f91849f);
+            
+        
+
+        circle_marker_2b40f727fa8b2143be35a15c6a27b492.bindPopup(popup_f26ff4de5550fc3cb0b05e2bb7b7ad84)
+        ;
+
+        
+    
+    
+            var circle_marker_ef7bd2b2d510f21d00b62ce7864dbbb9 = L.circleMarker(
+                [32.113997657835334, 34.79917145904505],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.333333333333332, "stroke": true, "weight": 3}
+            ).addTo(map_2755102b266170618510c5baacafa9c7);
+        
+    
+        var popup_767114be509721e1726e28ac603d8acc = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            
+                var html_f8b831a92af3ed3d55a4eea3f0e7a92c = $(`<div id="html_f8b831a92af3ed3d55a4eea3f0e7a92c" style="width: 100.0%; height: 100.0%;">Street: בארט<br>Exact location on this street is unknown<br>Rooms: 4<br>Price: 7000</div>`)[0];
+                popup_767114be509721e1726e28ac603d8acc.setContent(html_f8b831a92af3ed3d55a4eea3f0e7a92c);
+            
+        
+
+        circle_marker_ef7bd2b2d510f21d00b62ce7864dbbb9.bindPopup(popup_767114be509721e1726e28ac603d8acc)
+        ;
+
+        
+    
+    
+            var circle_marker_b68b2af3ff8a07c0e33cfd70a2479dd7 = L.circleMarker(
+                [32.1076134787929, 34.79327065399532],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.603333333333333, "stroke": true, "weight": 3}
+            ).addTo(map_2755102b266170618510c5baacafa9c7);
+        
+    
+        var popup_7134bbc23d266329df275d33ae1ba701 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            
+                var html_8358d8cc8f09a67a09676b4a2119045e = $(`<div id="html_8358d8cc8f09a67a09676b4a2119045e" style="width: 100.0%; height: 100.0%;">Street: שמעוני<br>Exact location on this street is unknown<br>Rooms: 2.5<br>Floor: 3<br>Price: 5900</div>`)[0];
+                popup_7134bbc23d266329df275d33ae1ba701.setContent(html_8358d8cc8f09a67a09676b4a2119045e);
+            
+        
+
+        circle_marker_b68b2af3ff8a07c0e33cfd70a2479dd7.bindPopup(popup_7134bbc23d266329df275d33ae1ba701)
+        ;
+
+        
+    
+    
+            var circle_marker_bd0e92e6211a8e091956f7313573cd09 = L.circleMarker(
+                [32.10851081156421, 34.79419205598856],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.75, "stroke": true, "weight": 3}
+            ).addTo(map_2755102b266170618510c5baacafa9c7);
+        
+    
+        var popup_8d9937332951937790aca838eab63ec5 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            
+                var html_ffd4b916232cc7bb6c43112f38053b26 = $(`<div id="html_ffd4b916232cc7bb6c43112f38053b26" style="width: 100.0%; height: 100.0%;">Street: רדינג<br>Exact location on this street is unknown<br>Rooms: 3<br>Price: 4500</div>`)[0];
+                popup_8d9937332951937790aca838eab63ec5.setContent(html_ffd4b916232cc7bb6c43112f38053b26);
+            
+        
+
+        circle_marker_bd0e92e6211a8e091956f7313573cd09.bindPopup(popup_8d9937332951937790aca838eab63ec5)
+        ;
+
+        
+    
+    
+            var circle_marker_e34a228693741ab43fef6461f19d57e5 = L.circleMarker(
+                [32.10371177512551, 34.79496101368838],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.363333333333333, "stroke": true, "weight": 3}
+            ).addTo(map_2755102b266170618510c5baacafa9c7);
+        
+    
+        var popup_d82645af1400c23a43e75de212a11228 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            
+                var html_71265d7800a875fc4aed1645b1ecca97 = $(`<div id="html_71265d7800a875fc4aed1645b1ecca97" style="width: 100.0%; height: 100.0%;">Street: רדינג<br>Number: 4<br>Rooms: 2.5<br>Price: 5300</div>`)[0];
+                popup_d82645af1400c23a43e75de212a11228.setContent(html_71265d7800a875fc4aed1645b1ecca97);
+            
+        
+
+        circle_marker_e34a228693741ab43fef6461f19d57e5.bindPopup(popup_d82645af1400c23a43e75de212a11228)
+        ;
+
+        
+    
+    
+            var circle_marker_510e8fb9f4825851543a1d4beaa84bfc = L.circleMarker(
+                [32.1164697670503, 34.79652522952444],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.2027, "stroke": true, "weight": 3}
+            ).addTo(map_2755102b266170618510c5baacafa9c7);
+        
+    
+        var popup_f3c85dfb41f87684aa12b5fe5cf5f929 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            
+                var html_84f391ae92a47b2b4b5b14a3b86ba59c = $(`<div id="html_84f391ae92a47b2b4b5b14a3b86ba59c" style="width: 100.0%; height: 100.0%;">Street: טאגור<br>Exact location on this street is unknown<br>Rooms: 3<br>Floor: 3<br>Price: 7590</div>`)[0];
+                popup_f3c85dfb41f87684aa12b5fe5cf5f929.setContent(html_84f391ae92a47b2b4b5b14a3b86ba59c);
+            
+        
+
+        circle_marker_510e8fb9f4825851543a1d4beaa84bfc.bindPopup(popup_f3c85dfb41f87684aa12b5fe5cf5f929)
+        ;
+
+        
+    
+    
+            var circle_marker_a39ac5bbad074abfce2d32413b5f67ec = L.circleMarker(
+                [32.107810742218746, 34.798613420920944],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.803333333333335, "stroke": true, "weight": 3}
+            ).addTo(map_2755102b266170618510c5baacafa9c7);
+        
+    
+        var popup_cd9e34dc9aed5597dfd5bad72e091935 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            
+                var html_944e08e50fc43d66b87701eb4e5dd1df = $(`<div id="html_944e08e50fc43d66b87701eb4e5dd1df" style="width: 100.0%; height: 100.0%;">Exact location is missing, arbitrary location was chosen<br>Rooms: 2.5<br>Floor: 0<br>Price: 7100</div>`)[0];
+                popup_cd9e34dc9aed5597dfd5bad72e091935.setContent(html_944e08e50fc43d66b87701eb4e5dd1df);
+            
+        
+
+        circle_marker_a39ac5bbad074abfce2d32413b5f67ec.bindPopup(popup_cd9e34dc9aed5597dfd5bad72e091935)
+        ;
+
+        
+    
+    
+            var circle_marker_b0ae8382ea104e59641db05287f44ece = L.circleMarker(
+                [32.109977224676214, 34.79509248558082],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.72, "stroke": true, "weight": 3}
+            ).addTo(map_2755102b266170618510c5baacafa9c7);
+        
+    
+        var popup_ee7288f0cc34bfea3a794b328bfaca81 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            
+                var html_faf20d42d8f519429051619dc7422e01 = $(`<div id="html_faf20d42d8f519429051619dc7422e01" style="width: 100.0%; height: 100.0%;">Street: אשר ברש<br>Exact location on this street is unknown<br>Rooms: 2<br>Floor: 3<br>Price: 5400</div>`)[0];
+                popup_ee7288f0cc34bfea3a794b328bfaca81.setContent(html_faf20d42d8f519429051619dc7422e01);
+            
+        
+
+        circle_marker_b0ae8382ea104e59641db05287f44ece.bindPopup(popup_ee7288f0cc34bfea3a794b328bfaca81)
+        ;
+
+        
+    
+    
+            var circle_marker_d5115cf561e75f979fccdc185b912855 = L.circleMarker(
+                [32.10870938470319, 34.79658767057016],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.253333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_2755102b266170618510c5baacafa9c7);
+        
+    
+        var popup_a5432b7722b5299018c6570712849dc6 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            
+                var html_d0a66ab82321dd17d8a68ff83bc09198 = $(`<div id="html_d0a66ab82321dd17d8a68ff83bc09198" style="width: 100.0%; height: 100.0%;">Street: נח<br>Exact location on this street is unknown<br>Rooms: 3<br>Floor: 3<br>Price: 7400</div>`)[0];
+                popup_a5432b7722b5299018c6570712849dc6.setContent(html_d0a66ab82321dd17d8a68ff83bc09198);
+            
+        
+
+        circle_marker_d5115cf561e75f979fccdc185b912855.bindPopup(popup_a5432b7722b5299018c6570712849dc6)
+        ;
+
+        
+    
+    
+            var circle_marker_1c086da44ecd06ca9602492a3c59a52d = L.circleMarker(
+                [32.117090411790194, 34.794177013519835],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.565633333333333, "stroke": true, "weight": 3}
+            ).addTo(map_2755102b266170618510c5baacafa9c7);
+        
+    
+        var popup_5623ecdb95f65413260ed833d04c2f03 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            
+                var html_3fb83cb2de3de52591297f28e5b2c4f1 = $(`<div id="html_3fb83cb2de3de52591297f28e5b2c4f1" style="width: 100.0%; height: 100.0%;">Street: הסבוראים<br>Exact location on this street is unknown<br>Rooms: 3<br>Floor: 3<br>Price: 5630</div>`)[0];
+                popup_5623ecdb95f65413260ed833d04c2f03.setContent(html_3fb83cb2de3de52591297f28e5b2c4f1);
+            
+        
+
+        circle_marker_1c086da44ecd06ca9602492a3c59a52d.bindPopup(popup_5623ecdb95f65413260ed833d04c2f03)
+        ;
+
+        
+    
+    
+            var circle_marker_bc5106e29b7f9458df542306a5e90055 = L.circleMarker(
+                [32.11295419438301, 34.79706375106886],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.28, "stroke": true, "weight": 3}
+            ).addTo(map_2755102b266170618510c5baacafa9c7);
+        
+    
+        var popup_2b47d8ae316db34e3883541584e7cee6 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            
+                var html_66e72391df6194a3563a74b96748cdef = $(`<div id="html_66e72391df6194a3563a74b96748cdef" style="width: 100.0%; height: 100.0%;">Street: איינשטיין<br>Exact location on this street is unknown<br>Rooms: 3<br>Floor: 2<br>Price: 7800</div>`)[0];
+                popup_2b47d8ae316db34e3883541584e7cee6.setContent(html_66e72391df6194a3563a74b96748cdef);
+            
+        
+
+        circle_marker_bc5106e29b7f9458df542306a5e90055.bindPopup(popup_2b47d8ae316db34e3883541584e7cee6)
+        ;
+
+        
+    
+    
+            var circle_marker_62640d8470cbd398657fbcbec753e557 = L.circleMarker(
+                [32.1180001673834, 34.796561300132446],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.23, "stroke": true, "weight": 3}
+            ).addTo(map_2755102b266170618510c5baacafa9c7);
+        
+    
+        var popup_5d54e0eec9fcf9c0a18834d0d04ff5a2 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            
+                var html_a16262dae19733170aefe051ea41f531 = $(`<div id="html_a16262dae19733170aefe051ea41f531" style="width: 100.0%; height: 100.0%;">Street: פסטרנק<br>Exact location on this street is unknown<br>Rooms: 3<br>Floor: 0<br>Price: 6300</div>`)[0];
+                popup_5d54e0eec9fcf9c0a18834d0d04ff5a2.setContent(html_a16262dae19733170aefe051ea41f531);
+            
+        
+
+        circle_marker_62640d8470cbd398657fbcbec753e557.bindPopup(popup_5d54e0eec9fcf9c0a18834d0d04ff5a2)
+        ;
+
+        
+    
+    
+            var circle_marker_4f7820a9da779edaec22ba42572de0a8 = L.circleMarker(
+                [32.111091522289485, 34.79943239735136],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_2755102b266170618510c5baacafa9c7);
+        
+    
+        var popup_456b3fcf5f867ebcdb3910a050af643b = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            
+                var html_fd528be99d5584575b2c7404bee21a9b = $(`<div id="html_fd528be99d5584575b2c7404bee21a9b" style="width: 100.0%; height: 100.0%;">Street: פרנקל<br>Exact location on this street is unknown<br>Rooms: 3.5<br>Floor: 0<br>Price: nan</div>`)[0];
+                popup_456b3fcf5f867ebcdb3910a050af643b.setContent(html_fd528be99d5584575b2c7404bee21a9b);
+            
+        
+
+        circle_marker_4f7820a9da779edaec22ba42572de0a8.bindPopup(popup_456b3fcf5f867ebcdb3910a050af643b)
+        ;
+
+        
+    
+    
+            var circle_marker_02ab6a32485230321ce8c2dc48ccc788 = L.circleMarker(
+                [32.11307839893796, 34.797108344167654],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30.083333333333332, "stroke": true, "weight": 3}
+            ).addTo(map_2755102b266170618510c5baacafa9c7);
+        
+    
+        var popup_763f5a790f4fe34e3a4d13aff3347aaa = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            
+                var html_2ec58eb4f82b2e99ff4403f2399cb598 = $(`<div id="html_2ec58eb4f82b2e99ff4403f2399cb598" style="width: 100.0%; height: 100.0%;">Street: איינשטיין<br>Exact location on this street is unknown<br>Rooms: 4<br>Floor: 3<br>Price: 9500</div>`)[0];
+                popup_763f5a790f4fe34e3a4d13aff3347aaa.setContent(html_2ec58eb4f82b2e99ff4403f2399cb598);
+            
+        
+
+        circle_marker_02ab6a32485230321ce8c2dc48ccc788.bindPopup(popup_763f5a790f4fe34e3a4d13aff3347aaa)
+        ;
+
+        
+    
+    
+            var circle_marker_1ad479ae58bc8f65b35a77634fe37f49 = L.circleMarker(
+                [32.11664061222128, 34.80072079808891],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21.333333333333332, "stroke": true, "weight": 3}
+            ).addTo(map_2755102b266170618510c5baacafa9c7);
+        
+    
+        var popup_76ef5b7100f5087a6ee689060b1a8148 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            
+                var html_15ac37153ffb39bfa61408a0720d7786 = $(`<div id="html_15ac37153ffb39bfa61408a0720d7786" style="width: 100.0%; height: 100.0%;">Street: פיליכובסקי<br>Exact location on this street is unknown<br>Rooms: 3<br>Floor: 4<br>Price: 8000</div>`)[0];
+                popup_76ef5b7100f5087a6ee689060b1a8148.setContent(html_15ac37153ffb39bfa61408a0720d7786);
+            
+        
+
+        circle_marker_1ad479ae58bc8f65b35a77634fe37f49.bindPopup(popup_76ef5b7100f5087a6ee689060b1a8148)
+        ;
+
+        
+    
+    
+            var circle_marker_43cdc87747032d2ef714d3d910fa23cc = L.circleMarker(
+                [32.10752444674716, 34.793322342063014],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.603333333333333, "stroke": true, "weight": 3}
+            ).addTo(map_2755102b266170618510c5baacafa9c7);
+        
+    
+        var popup_d3660b30899aa2f33c7d899e51018f6d = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            
+                var html_cca1b5a31b959257165d550d9d37946d = $(`<div id="html_cca1b5a31b959257165d550d9d37946d" style="width: 100.0%; height: 100.0%;">Street: שמעוני<br>Exact location on this street is unknown<br>Rooms: 2<br>Price: 5900</div>`)[0];
+                popup_d3660b30899aa2f33c7d899e51018f6d.setContent(html_cca1b5a31b959257165d550d9d37946d);
+            
+        
+
+        circle_marker_43cdc87747032d2ef714d3d910fa23cc.bindPopup(popup_d3660b30899aa2f33c7d899e51018f6d)
+        ;
+
+        
+    
+    
+            var circle_marker_d5097f06fb17038b2b5a4024999e9819 = L.circleMarker(
+                [32.10727004823795, 34.80107244938007],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.333333333333332, "stroke": true, "weight": 3}
+            ).addTo(map_2755102b266170618510c5baacafa9c7);
+        
+    
+        var popup_4bef3be95a1e1c93fe4803e5f5e86200 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            
+                var html_b4e840e2265ae5e0dd0a34b2940cc5bd = $(`<div id="html_b4e840e2265ae5e0dd0a34b2940cc5bd" style="width: 100.0%; height: 100.0%;">Street: חיים לבנון<br>Exact location on this street is unknown<br>Rooms: 3<br>Floor: 4<br>Price: 7000</div>`)[0];
+                popup_4bef3be95a1e1c93fe4803e5f5e86200.setContent(html_b4e840e2265ae5e0dd0a34b2940cc5bd);
+            
+        
+
+        circle_marker_d5097f06fb17038b2b5a4024999e9819.bindPopup(popup_4bef3be95a1e1c93fe4803e5f5e86200)
+        ;
+
+        
+    
+    
+            var circle_marker_51b3dc5b13923216f32a88ef3c8bfed4 = L.circleMarker(
+                [32.1100077542539, 34.79495834434264],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.0, "stroke": true, "weight": 3}
+            ).addTo(map_2755102b266170618510c5baacafa9c7);
+        
+    
+        var popup_6e279b01641bf18f726dd31ec100035f = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            
+                var html_8a7c3b9d3d7b99f19729b9de5454cab8 = $(`<div id="html_8a7c3b9d3d7b99f19729b9de5454cab8" style="width: 100.0%; height: 100.0%;">Street: אשר ברש<br>Exact location on this street is unknown<br>Rooms: 2.5<br>Price: 6000</div>`)[0];
+                popup_6e279b01641bf18f726dd31ec100035f.setContent(html_8a7c3b9d3d7b99f19729b9de5454cab8);
+            
+        
+
+        circle_marker_51b3dc5b13923216f32a88ef3c8bfed4.bindPopup(popup_6e279b01641bf18f726dd31ec100035f)
+        ;
+
+        
+    
+    
+            var circle_marker_23da456b438538f39197ffe76a4788fa = L.circleMarker(
+                [32.111127540497655, 34.79501634739558],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.413333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_2755102b266170618510c5baacafa9c7);
+        
+    
+        var popup_49ab82aeae36d15cce52efe110193e39 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            
+                var html_49b1a4f5484906fd0b333e15b16a8d91 = $(`<div id="html_49b1a4f5484906fd0b333e15b16a8d91" style="width: 100.0%; height: 100.0%;">Street: ברזיל<br>Exact location on this street is unknown<br>Rooms: 3<br>Floor: 2<br>Price: 6800</div>`)[0];
+                popup_49ab82aeae36d15cce52efe110193e39.setContent(html_49b1a4f5484906fd0b333e15b16a8d91);
+            
+        
+
+        circle_marker_23da456b438538f39197ffe76a4788fa.bindPopup(popup_49ab82aeae36d15cce52efe110193e39)
+        ;
+
+        
+    
+    
+            var circle_marker_4d2c504b0dc98965d183f6398207b816 = L.circleMarker(
+                [32.10730083602731, 34.79739814973117],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": NaN, "stroke": true, "weight": 3}
+            ).addTo(map_2755102b266170618510c5baacafa9c7);
+        
+    
+        var popup_6a67b50aefe970a045358bc90b710300 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            
+                var html_24a8ceeb4a3c89c365f2497348c343ea = $(`<div id="html_24a8ceeb4a3c89c365f2497348c343ea" style="width: 100.0%; height: 100.0%;">Exact location is missing, arbitrary location was chosen<br>Price: nan</div>`)[0];
+                popup_6a67b50aefe970a045358bc90b710300.setContent(html_24a8ceeb4a3c89c365f2497348c343ea);
+            
+        
+
+        circle_marker_4d2c504b0dc98965d183f6398207b816.bindPopup(popup_6a67b50aefe970a045358bc90b710300)
+        ;
+
+        
+    
+    
+            var marker_1c1242798cfb2db1b495ba128d803332 = L.marker(
+                [32.105644, 34.799734],
+                {}
+            ).addTo(map_2755102b266170618510c5baacafa9c7);
+        
+    
+            var icon_52928482e5a605167ff39de017bfe535 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1c1242798cfb2db1b495ba128d803332.setIcon(icon_52928482e5a605167ff39de017bfe535);
+        
+    
+        var popup_acfa38587b5e13650b5e9eadea76b022 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a3a3acabd5bf19b3e14d35823a6915a = $(`<div id="html_7a3a3acabd5bf19b3e14d35823a6915a" style="width: 100.0%; height: 100.0%;">My House</div>`)[0];
+                popup_acfa38587b5e13650b5e9eadea76b022.setContent(html_7a3a3acabd5bf19b3e14d35823a6915a);
+            
+        
+
+        marker_1c1242798cfb2db1b495ba128d803332.bindPopup(popup_acfa38587b5e13650b5e9eadea76b022)
+        ;
+
+        
+    
+</script>
+</html>
