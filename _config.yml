@@ -1,0 +1,4 @@
+theme: jekyll-theme-minimal
+title: Rentalytics
+description: Rentalytics is a Python-based data analysis tool that collects and analyzes rental price data for houses near Ramat-Aviv -- Tel-Aviv -- Israel
+logo: logo.jpg
