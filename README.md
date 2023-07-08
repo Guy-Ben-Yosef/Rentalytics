@@ -1,3 +1,7 @@
+# 🌐 Website
+
+Visit the [Rentalytics website](https://theguyben.github.io/Rentalytics/) for more information.
+
 # 🏠 Rentalytics
 
 Rentalytics is a Python-based data analysis tool that collects and analyzes rental price data for houses near Ramat-Aviv -- Tel-Aviv -- Israel
@@ -41,5 +45,3 @@ Contributions to Rentalytics are welcome! If you have any ideas, improvements, o
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
-```
-```
