@@ -1,6 +1,6 @@
 # 🌐 Website
 
-Visit the [Rentalytics website](https://theguyben.github.io/Rentalytics/) for more information.
+Visit the [Rentalytics website](https://guy-ben-yosef.github.io/Rentalytics/) for more information.
 
 # 🏠 Rentalytics
 
